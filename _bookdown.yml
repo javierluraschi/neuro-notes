@@ -1,0 +1,16 @@
+book_filename: "neuro-notes"
+repo: https://github.com/javierluraschi/neuro-notes
+clean: [packages.bib, bookdown.bbl]
+language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
+  ui:
+    edit: "Edit"
+    chapter_name: "Chapter "
+delete_merged_file: true
+output_dir: "docs"
+rmd_files: [
+  "index.Rmd",
+  "intro.Rmd"
+]

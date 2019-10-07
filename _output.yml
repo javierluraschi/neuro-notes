@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  css: style.css
+  repo: https://github.com/javierluraschi/neuro-notes
+  config:
+    toc:
+      before: |
+        <li><strong><a href="./">Notes on Computational Neuroscience</a></strong></li>
+    sharing:
+      github: yes
+      facebook: no
+  split_by: chapter
