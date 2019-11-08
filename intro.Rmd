@@ -5,3 +5,19 @@ knitr::opts_chunk$set(eval = FALSE)
 ```
 
 # Introduction {#intro}
+
+## Eumetazoans
+
+### Motor Nerve Net (MNN)
+### Apical Nervous System (ANS)
+### Blastoporal Nervous System (BNS)
+### Multilevel Control
+### Withdrawl Reflexes
+### Dopamine
+
+"The effect of dopamine on the input resistance of swimming motor neurons". [@chung1991dopamine]
+
+"Are capable of generating two types of action potentials, small/slow calcium spikes and large/fast sodium spikes, depending on the degree of depolarization it receives." [@katsuki2013jellyfish]
+
+
+## Bilateria
