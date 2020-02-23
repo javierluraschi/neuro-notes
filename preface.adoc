@@ -1,0 +1,63 @@
+= Preface
+
+The field of machine learning, deep learning, and artificial intelligence has been a fertile ground for innovation in the recent years, enabling world-changing applications like virtual assistants, autonomous driving vehicles, and automatic language translation. Deep Learning has taken inspiration from fields like software engineering, data science, distributed computing and neuroscience. However, the fast-growth of these fields has also created high-expectations hard to match with current models. In one extreme, some leaders of the field have called out to start from scratch and rethink the current approach, which creates a huge opportunity for us ton rethink how to tackle this transition.
+
+The original neural networks introduced by Rosenblatt, which later became building blocks for deep learning, originally borrowed inspiration from neuroscience. However, many advances in our understanding of neuroscience have happened since then; therefore, it makes sense to learn the current models that neuroscience and psyscology have improved on and, yet again, borrow inspiration for the field of artificial intelligence -- and take step closer to general artificial intelligence.
+
+Many books have been written on neuroscience; however, most of them target medical practitioners which assume you have some pre-medical training, a strong stomach and patience to read through many non-relevant topics to the field of artificial intelligence. For instance, one surely does not need to know how to make a cranial incision and their potential complications to build a software model that resembles brain-like functionality. This book is meant to be read by those of you working, or aspiting to work, in the field of artificial intelligence -- it takes away all the bloody stuff and abstracts concepts that you can use in software models.
+
+To make sure this book properly abstracts neuroscience for the artificial intellegence community, we've taken the following three measures. First, this book is based of "Principles of Neural Science, Fifth Edition", a seminal work on neuroscience lead by Nobel laurate, Eric Kandel. This book is thousands of pages long and contains, arguably, most of the neuroscience knowledge. Our role was to carefully curate the concepts that are potentially required to implement intelligent systems. Second, I've maintained the structure presented in Kandel's book, meaining, you can always jump to a section and understand additional details without loosing context or having to read the entire book. If you are motivated to learn even more on neuroscience, we would encourage you to also buy and have it ready to cross-reference as needed. Third, we are honored to have this worked reviewed by a team of neuroscientists working in this field, this work would not have been possible with their help, experience and knowledge. The neuroscience field has laid down the foundations for us to easily borrow inspiration, concepts and models -- We owe neuroscience big time.
+
+This book is also different to others in the field of artificial intelligence since it avoids proposing a grand-theory of intellegence. Our role is to abstract and simplify concepts, your role is to borrow them for your day-to-day job in the fields of artificial intelligence. For instance, it's usually frown upon to build deep learning systems that make use of hard-coded features or have hard-coded behavior, the argument being that is not general and not elegant. However, even the first chapter of this book will describe that the brain process that classifies day from night is actually hard-coded, not learned. When building a virtual assistant, you can argue that it's more natural to have a twelve-hour hard-coded cycle embedded in the system which incrementally adjusts to light. This would create a more biological-accurate model, which in turn should help the model understand concepts like jetlag.
+
+Although we won't directly discuss them, you will find four concepts throught the book which might be required for general artificial intelligence.
+
+Brain::
+The first one is the _brain_, this is an obvious one since we are already discussing neuroscience, which studies the nervous system and has broaden to study the cognitive tasks in the brain. Most of the book concepts and theories will deal with brain function, components, theories and so on. Most researchers argue brain-like models are required for build intelligent systems.
+
+Emotion::
+The second is _emotion_, which some have argued is not needed to create artificial intelligence, emotion heavily depends on the endocrine system which regulates hormones that influence metabolism, growth, mood, and so on. For instance, adrenaline has been shown to increase fear which support the idea that it has a role in facilitating the encoding of emotional events.footnote:[Mezzacappa E (1999) "Epinephrine, arousal, and emotion: A new look at two-factor theory" Cognition and Emotion] It might be possible to build a system that is inheritently intelligent without emotion, but it might be too hard for us to effectevely communicate with such system and for the system to understand human behavior and civilization in general. As usual, it is left to you to decide if emotion is something that should be modeled, ouir role is to present how it works and how it relates to brain function.
+
+Evolution::
+The third is _evolution_, which defines ways to transform an already-intelligent model into better-adapted models. It's out belief that evolution is not required to build an intelligent system; but perhaps this is the next frontier. One might need to build systems capable of self-improving using evolutionary general artificial intelligence (EGAI). That said, we do believe it is important to understand the role evolution plays in neuroscience to understand what to expect from intelligent systems. For instance, early chapters will show that some genes control how prone one is to explore vs exploit a food source, which means that there is some inherent tendency towards exploration that is not learned. That said, the brain can plan, override innate behavior, force one to explore or exploit using higher-level cognitive processes, and cause emotional responses from the additional energy being spent -- this is an example of the complexity involved when understanding intelligent behavior.
+
+Civilization::
+The fourth concept is the role of _civilization_, which is not discussed in principles of neuroscience, but important to our field. The reasoning is as follows, our world is designed to be used by us, humans. The concepts we experience and create, like jetlag, are very specific to our own biology. Even further, things like books and web pages, are designed to be easily consumable by us, not artificial systems. In this last chapter we will discuss what civilization is with the purpuse of understanding how we can better integrate artificial systems into it. One approach is to make systems more human-like and another to make civilization friendlier to other systems. Yet again, you will not learn a grand theory of civilization in the context of artificial intellegence, that's up to you reflect on and apply this to your daily lives. A simple case, one can tackle the problem of ingesting plain text into a system to create structure out of it, or perhaps modify the processes to generate structured-data in the first place. We can argue a system capable of understanding plain-text is superior and desired, but one can also argue that natural-language is not ideal and we, as a civilization, should put more effort into producing strutured data.
+
+One core principle we followed in this book is that, many biological processes are the same across various species and specially across mamamals. For instance, we share with chimps 96 percent of our DNA sequence. There are certainly differences, some of which we will point out through the book; however, it is our goal to focus on the overall processes that drives intelligent behavior so we usually don't point out exactly which species was used by neuroscientists to understand a concept. The reasoning, it would still be a great accomplishment if we "only" find out how to create mice-level intelligent behavior when shooting for human-level artificial intelligence. Our hope is that by distilling neuroscience into generic concepts and processes, you will gain a deep understanding on how intelligence systems should work.
+
+This book follows, for the most part, the structure of Principles of Neural Science and adds a couple more chapters which are only relevant to the field of artificial intelligence. The chapters break as follows:
+
+Chapter 1: Brain::
+This chapter maps to "Part I: Overall Perspective" in Principles of Neural Science.
+
+Chapter 2: Neurons::
+Maps to "Part II: Cell and Molecular Biology of the Neuron".
+
+Chapter 3: Synapses::
+Maps to "Part III: Synaptic Transmission".
+
+Chapter 4: Cognition::
+Maps to "Part IV: The Neural Basis of Cognition".
+
+Chapter 5: Perception::
+Maps to "Part V: Perception".
+
+Chapter 6: Movement::
+Maps to "Part VI: Movement".
+
+Chapter 7: Consciousness::
+Maps to "Part VII: The Unconscious and Conscious Processing of Neural Information".
+
+Chapter 8: Behavior::
+Maps to "Part VIII: Development and the Emergence of Behavior"
+
+Chapter 8: Learning::
+Maps to "Part IX: Language, Thought, Affect, and Learning"
+
+Chapter 9: Civilization::
+This chapter discusses concepts for various books, with various referencese to the work of Noah Harari.
+
+Chapter 10: Models::
+This last chapter introduces various models which somehow intersect both, neuroscience and artificial intelligence. It's left to you to decide if any of them are particularily accurate or relevant to your field.
+

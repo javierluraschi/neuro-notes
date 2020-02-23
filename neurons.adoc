@@ -1,0 +1,13 @@
+= Neurons
+
+Must Learm:
+- Channels
+- Types
+  - Voltage Gated
+- Depolarization / Repolarization / Hyperpolarization
+- Na+, K+, Cl-
+- Channels In Neurons
+  - Most: Voltage-gates, Na+ inward, K+ outward.
+  - Voltage-gated Ca2+ opened in response to depolarization, inward Ca to helpdepolarize
+  - Some neurons have voltage-gated Cl- to help repolarization
+  - Some voltage-avtivated K+ channels differ in 

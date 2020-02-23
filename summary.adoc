@@ -1,0 +1,14 @@
+= Summary
+
+. link:preface.adoc[Preface]
+. link:brain.adoc[1 Brain]
+.. link:brain.adoc#_components[1.1 Components]
+.. link:brain.adoc#_cortex[1.2 Cortex]
+.. link:brain.adoc#_neurons[1.3 Neurons]
+.. link:brain.adoc#_glia[1.4 Glia]
+.. link:brain.adoc#_synapses[1.5 Synapses]
+.. link:brain.adoc#_neural_networks[1.6 Neural Networks]
+.. link:brain.adoc#_genes[1.7 Genes]
+.. link:brain.adoc#_behavior[1.8 Bevahior]
+.. link:brain.adoc#_recap[1.9 Recap]
+. link:neurons.adoc[2 Neurons]
