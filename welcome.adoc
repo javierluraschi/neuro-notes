@@ -5,3 +5,5 @@
 This book is intended to be read by people working in fields like https://en.wikipedia.org/wiki/Artificial_intelligence[artificial intelligence], https://en.wikipedia.org/wiki/Deep_learning[deep learning], https://en.wikipedia.org/wiki/Machine_learning[machine learning] and https://en.wikipedia.org/wiki/Software_engineering[software engineering]. It is a summary of *neuroscience for engineers*, it does not present any grand theory of intelligence -- it's left to the reader to apply neuroscience theories to build more useful and intelligent systems on their own.
 
 This book follows the structure of https://en.wikipedia.org/wiki/Principles_of_Neural_Science[Principles of Neural Science], a masterpiece lead by Nobel laureate https://en.wikipedia.org/wiki/Eric_Kandel[Eric Kandel], whom we greatly credit this book to.
+
+This work is licensed under the http://creativecommons.org/licenses/by-nc-nd/3.0/us/[Creative Commons Attribution-NonCommercial-NoDerivs 3.0] United States License.
